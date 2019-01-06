@@ -1,0 +1,16 @@
+.searchInput {
+	padding: 5px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid $mainColor;
+	margin-right: 5px;
+	&:focus, &:active {
+		box-shadow: 0px 3px 3px -3px #000000;
+	}
+}
+
+.searchLabel {
+	width: 100%;
+	display: block;
+	font-size: 14px;
+}

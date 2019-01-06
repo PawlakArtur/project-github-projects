@@ -1,0 +1,15 @@
+.mainButton {
+	background: $mainColor;
+	outline: none;
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+	color: #ffffff;
+	cursor: pointer;
+	&:hover, &:active, &:focus {
+		background: darken($mainColor, 10);
+	}
+	&:disabled {
+		background: lighten($mainColor,  10);
+	}
+}

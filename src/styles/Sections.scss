@@ -1,0 +1,31 @@
+body {
+	background: $backgroundColor;
+}
+
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-items: center;
+}
+
+.searchSection {
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.resultSection {
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.section__title {
+	margin: 10px 0;
+	width: 100%;
+	text-align: center;
+}
